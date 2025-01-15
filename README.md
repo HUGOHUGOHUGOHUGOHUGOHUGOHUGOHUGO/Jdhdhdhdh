@@ -1,6 +1,4 @@
-_G.AutoLIft = true
- 
-while _G.AutoLIft = true do.                                                                                               
-task .wait(0.0000000001).                                                                                                  
-game:GetService("ReplicatedStorage"):FindFirstChild("events-shared/network@GlobalEvents").placeBlock:FireServer().         
+while true do
+    print("game:GetService("ReplicatedStorage"):FindFirstChild("events-shared/network@GlobalEvents").placeBlock:FireServer()")
+    wait(1) -- Espera 1 segundo antes de repetir
 end
